@@ -1,0 +1,17 @@
+{
+    "name": "yhio",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/LuBan07/yhio.git",
+    "author": "杨新华 <1751508766@qq.com>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vitepress dev docs --port 3333",
+        "build": "vitepress build docs",
+        "serve": "vitepress serve docs",
+        "deploy": "sh deploy.sh"
+    },
+    "devDependencies": {
+        "vitepress": "^1.0.0-rc.4"
+    }
+}

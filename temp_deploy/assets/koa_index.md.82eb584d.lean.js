@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,Q as l}from"./chunks/framework.1456bef9.js";const i=JSON.parse('{"title":"一、项目的初始化","description":"","frontmatter":{},"headers":[],"relativePath":"koa/index.md","lastUpdated":1692269464000}'),p={name:"koa/index.md"},o=l("",148),e=[o];function t(c,r,y,D,F,A){return a(),n("div",null,e)}const u=s(p,[["render",t]]);export{i as __pageData,u as default};

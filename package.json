@@ -1,0 +1,23 @@
+{
+  "name": "luban",
+  "version": "1.0.0",
+  "description": "基于vitepress搭建的个人博客",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^4.2.0",
+    "vitepress": "^1.0.0-alpha.63"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --host 0.0.0.0 --port 9090",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "deploy": "sh deploy.sh"
+  },
+  "dependencies": {
+    "ant-design-vue": "4.x",
+    "express": "^4.18.2",
+    "valine": "^1.5.1",
+    "ws": "^8.13.0"
+  }
+}
